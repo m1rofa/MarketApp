@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scale"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/shape_grad3"
+    tools:context=".ItemsActivity">
+
+    <ImageView
+        android:id="@+id/ivItem_list_image"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/img_rickowens" />
+
+    <TextView
+        android:id="@+id/tvItem_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvItem_list_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textSize="16sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvItem_list_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnItem_list_btn"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:paddingVertical="10dp"
+        android:backgroundTint="#BC8F8F"
+        android:text="Watch" />
+</LinearLayout>
