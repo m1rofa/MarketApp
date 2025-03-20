@@ -25,7 +25,7 @@ class ItemActivity : AppCompatActivity() {
         val text: TextView = findViewById(R.id.tvItem_list_text)
         var image: ImageView = findViewById(R.id.ivItem_list_image_one)
 
-        image.setImageResource()
+        image.setImageResource(intent.getIntExtra("itemImg",0))
         title.text = intent.getStringExtra("itemTitle")
         text.text = intent.getStringExtra("itemText")
 
